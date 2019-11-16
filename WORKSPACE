@@ -37,6 +37,11 @@ maven_install(
     artifacts = [
         "javax.servlet:javax.servlet-api:4.0.1",
         "com.googlecode.protobuf-java-format:protobuf-java-format:1.4",
+        "org.springframework:spring-core:5.2.1.RELEASE",
+        "org.springframework:spring-web:5.2.1.RELEASE",
+        "org.springframework.boot:spring-boot-starter-web:2.2.1.RELEASE",
+        "org.springframework.boot:spring-boot:2.2.1.RELEASE",
+        "org.springframework.boot:spring-boot-autoconfigure:2.2.1.RELEASE",
     ],
     repositories = [
         "https://maven.google.com",

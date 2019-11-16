@@ -13,9 +13,9 @@
     "typescript": "3.3.1"
   },
   "scripts": {
-    "start-backend": "ibazel run //src/backend",
+    "start-backend": "ibazel run //src/backend/src/main/java/friends:webapp",
     "start-frontend": "ibazel run //src/frontend:devserver",
-    "build-backend": "bazel build //src/backend",
+    "build-backend": "bazel build //src/backend/src/main/java/friends:webapp",
     "build-frontend": "bazel build //src/frontend:devserver",
     "start": "npm run build-frontend && npm run build-backend && concurrently \"npm run start-frontend\" \"npm run start-backend\""
   }
