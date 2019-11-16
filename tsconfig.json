@@ -7,8 +7,15 @@
       "es2015.iterable",
       "es2015.promise"
     ],
-    "rootDirs": [".", "../dist/bin/src"],
     "experimentalDecorators": true,
-    "types": []
+    "types": [],
+    "baseUrl": ".",
+    "paths": {
+      "react_samples/*": [
+        "*",
+        "bazel-bin/*"
+      ]
+    },
+    "jsx": "react"
   }
 }

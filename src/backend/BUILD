@@ -1,15 +1,15 @@
 # Based on https://github.com/bazelbuild/examples/blob/master/tutorial/backend/BUILD
 
-load("@io_bazel_rules_appengine//appengine:appengine.bzl", "appengine_war")
+# load("@io_bazel_rules_appengine//appengine:appengine.bzl", "appengine_war")
 
 package(default_visibility = ["//visibility:public"])
 
-appengine_war(
-    name = "backend",
-    data = [":webapp"],
-    data_path = "webapp",
-    jars = [":app_deploy.jar"],
-)
+#appengine_war(
+#    name = "backend",
+#    data = [":webapp"],
+#    data_path = "webapp",
+#    jars = [":app_deploy.jar"],
+#)
 
 filegroup(
     name = "webapp",
@@ -26,7 +26,8 @@ java_binary(
     main_class = "does.not.exist",
     deps = [
         "//src/model:friend_java_proto",
-        "@io_bazel_rules_appengine//appengine:javax.servlet.api",
-        "@protobuf_java_format//jar",
+        # "@io_bazel_rules_appengine//appengine:javax.servlet.api",
+        "@maven//:javax_servlet_javax_servlet_api",
+        "@maven//:com_googlecode_protobuf_java_format_protobuf_java_format",
     ],
 )
