@@ -38,10 +38,15 @@
   resolved "https://registry.yarnpkg.com/@bazel/ibazel/-/ibazel-0.10.3.tgz#2e2b8a1d3e885946eac41db2b1aa6801fb319887"
   integrity sha512-v1nXbMTHVlMM4z4uWp6XiRoHAyUlYggF1SOboLLWRp0+D22kWixqArWqnozLw2mOtnxr97BdLjluWiho6A8Hjg==
 
-"@bazel/typescript@0.35.0":
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.35.0.tgz#ffc69b7db0c1c7acd9dce1ecbd4381d6af2773a8"
-  integrity sha512-HklbkwL+eSLHD1Q+rQgoVMlwPpP+zdMDozqhCsFOUbR2BCU0HedASzaJ5y7wdpnVeCUXwJO5vO7JqqzfvdsBLw==
+"@bazel/labs@^0.40.0":
+  version "0.40.0"
+  resolved "https://registry.yarnpkg.com/@bazel/labs/-/labs-0.40.0.tgz#a000fec1202220c950942b476c4d76be2c883283"
+  integrity sha512-Kya1fK2+gJ2/zdMTV/2/m5DJ2KyySKlV1O2c190oYxoIERWnOEYgmRq1Tspc7+n+G7nwtXGyDywTvQ78kJxT1g==
+
+"@bazel/typescript@0.40.0":
+  version "0.40.0"
+  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.40.0.tgz#4f70d1365ee28fb8c1fd430a25034b74deecada9"
+  integrity sha512-826LXZYVlvcf9zNNcywzGprMUgCFqcwCeM/VLp+xG8/q6idJpqCBxABfJy2U6iZ8qIg5+wlxgYkOcmAZBfKMfA==
   dependencies:
     protobufjs "6.8.8"
     semver "5.6.0"
